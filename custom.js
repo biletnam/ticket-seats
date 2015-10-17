@@ -6,7 +6,7 @@ var emp = document.getElementsByClassName("empty");
 var seatNum=0; 
 for (var i=0;i < emp.length;i++){
         //addEvent(emp[i], 'click', createForm);
-        emp[i].setAttribute("data", seatNum+=1)
+        //emp[i].setAttribute("data", seatNum+=1)
         emp[i].addEventListener("click",createForm);
 
     }
@@ -17,6 +17,7 @@ for (var i=0;i < emp.length;i++){
 function createForm(){
   var show = document.getElementsByTagName("form")[0];
   show.className= "show";
+  this.setAttribute("class","full")
 }
 
 
