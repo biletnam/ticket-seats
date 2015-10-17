@@ -12,7 +12,8 @@ for (var i=0;i < emp.length;i++){
 
 
 function createForm(){
-	console.log("hello");
+  var show = document.getElementsByTagName("form")[0];
+  show.className= "show";
 }
 
 }

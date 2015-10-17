@@ -7,6 +7,14 @@
 
 }
 
+.hide{
+display: none;
+
+}
+
+.show{
+	display: block;
+}
 
 .empty{
 	height: 80px; 
